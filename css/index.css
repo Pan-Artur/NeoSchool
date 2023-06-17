@@ -1,0 +1,250 @@
+/* Commands */
+
+body {
+    font-family: 'Roboto';
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* outline: solid red; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header  */
+
+.header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-list1 {
+    display: flex;
+    gap: 50px;
+}
+
+.header-list2 {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+}
+
+.header-logo {   
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.19;
+    color: limegreen;
+    margin-right: 93px;
+}
+
+.logo {
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.38;
+    color: #000000;
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.14;
+    color: #000000;
+}
+
+.header-link:hover {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.14;
+    color: limegreen;
+}
+
+.header-post {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.14;
+    color: #757575;
+}
+
+.header-post:hover {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.14;
+    color: limegreen;
+}
+
+.header-telephone {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.14;
+    color: #757575;
+}
+
+.header-telephone:hover {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.14;
+    color: limegreen;
+}
+
+/* main  */
+
+/* order  */
+
+.order {  
+    height: 600px;
+    top: 80px;
+    background: #2F303A;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.order-title {
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.order-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: limegreen;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 43px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 9px;
+    width: 250px;
+}
+
+.order-button:hover {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: rgb(2, 124, 2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 43px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 9px;
+    width: 250px;
+}
+
+/* about us  */
+
+.about-us {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
+}
+
+.about-us-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.about-us-item {
+    width: 370px;
+    height: 500px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.about-us-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: #212121;
+    margin-bottom: 50px;
+}
+
+.about-us-card-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.17;
+    color: #212121;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.about-us-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.71;
+    color: #757575;
+    width: 320pxpx;
+    padding-left: 20px;
+}
+
+.about-us-photo {
+    width: 370px;
+}
+
+/* history  */
+
+.history {
+    background: #F5F4FA;
+}
+
+.history-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: #212121;
+    margin-bottom: 50px;
+}
+
+.history-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.71;
+    color: #757575;
+    width: 1200px;
+    height: 210px;
+    padding: 40px 20px 60px 20px;
+    background-color: white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
